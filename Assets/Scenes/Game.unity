@@ -311,6 +311,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1002511161}
+  - component: {fileID: 1002511162}
   - component: {fileID: 1002511160}
   - component: {fileID: 1002511162}
   m_Layer: 0
@@ -329,11 +330,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1002511159}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2daee8eff28379d4daff2805b218db1d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d3dd1f32a1c6164b9d1dc902c9ff45c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   _placeForUi: {fileID: 693758133}
   _ads: {fileID: 1002511162}
+=======
+>>>>>>> MyLesson2
 --- !u!4 &1002511161
 Transform:
   m_ObjectHideFlags: 0
@@ -358,9 +362,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1002511159}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 0d3dd1f32a1c6164b9d1dc902c9ff45c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+  m_Script: {fileID: 11500000, guid: fe125e6fbfaa9dc4782ba4ac1aa53b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _placeForUi: {fileID: 693758133}
+  _ads: {fileID: 1002511160}
+  _shopProducts:
+  - Id: Money
+    CurrentProductType: 0
+>>>>>>> MyLesson2
 --- !u!1 &1165112438
 GameObject:
   m_ObjectHideFlags: 0
